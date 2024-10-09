@@ -32,7 +32,7 @@ MongoDB (rodando localmente ou em nuvem)
 ## Como rodar o projeto
 
 ### Clonar o repositório
-git clone https://https://github.com/Rhulys/ShoppingList.git cd listasupermercado
+git clone https://github.com/Rhulys/ShoppingList.git cd listasupermercado
 
 ### Instalar as dependências
 No diretório do projeto, execute o comando abaixo para instalar as dependências:
