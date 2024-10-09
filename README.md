@@ -68,7 +68,7 @@ O servidor Apollo expõe duas mutações principais e uma consulta:
 - Mutation: removeItem(id: ID!): Remove um item da lista usando o ID.
 - Exemplo de requisição GraphQL:
 
-Consulta para obter todos os itens
+Consulta para obter todos os itens:
 query { 
   items { 
     id 
@@ -76,7 +76,7 @@ query {
    } 
 }
 
-Mutações para adicionar e remover itens
+Mutações para adicionar e remover itens:
 mutation { 
   addItem(name: "Bananas") {
     id 
@@ -89,4 +89,4 @@ removeItem(id: "itemIdAqui") }
 Se você deseja contribuir com o projeto, sinta-se à vontade para abrir um pull request. Qualquer ajuda é bem-vinda!
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
